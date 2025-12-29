@@ -138,9 +138,8 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Portfolio: [your-portfolio-url](https://your-portfolio-url.com)
+**Sufyan Ikram**
+- GitHub: [@sufyanikramofficial](https://github.com/yourusername)
 
 ## 🙏 Acknowledgments
 
