@@ -1,0 +1,119 @@
+.wrapper{
+
+    background:url("images/bg-5.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    cursor: url("images/magicWandOrange.png") 0 0, pointer;
+    
+}
+.overlay{
+    inset: 0;
+    background-color: #11001fc2;
+    position:absolute;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    pointer-events: none;
+}
+.quote-card{
+        position: relative;
+        overflow:hidden;
+        z-index: 2;
+        background-color: rgba(0, 255, 255, 0);
+    
+}
+x
+.card-body{
+    z-index: 2;
+}
+.quote-text{
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #111;
+    font-size: 15px;
+}
+.quote-author{
+    font-family: Sansita, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 15px;
+    color: rgba(174, 148, 246, 0.777);
+    
+}
+.quote-auther::before{
+    content:"-- ";
+}
+
+/* This is the basic sprinkle style */
+.sprinkle {
+  /* Fixed positioning so it stays relative to viewport */
+  position: fixed;
+  
+  /* Don't interfere with clicking on elements */
+  pointer-events: none;
+  
+  /* Make it circular */
+  border-radius: 50%;
+  
+  /* Make sure it's on top of everything */
+  z-index: 9999;
+  
+  /* Start fully visible */
+  opacity: 1;
+  
+  /* Center the sprinkle on cursor */
+  transform: translate(-50%, -50%);
+}
+@keyframes sprinkle-fade {
+  0% {
+    /* Starting state: visible and normal size */
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    /* Ending state: invisible and smaller */
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.3);
+  }
+}
+
+/* Red sprinkle */
+.sprinkle.red {
+  background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+  box-shadow: 0 0 8px #ff6b6b;
+}
+
+/* Blue sprinkle */
+.sprinkle.blue {
+  background: linear-gradient(135deg, #4ecdc4, #6fe7dd);
+  box-shadow: 0 0 8px #4ecdc4;
+}
+
+/* Yellow sprinkle */
+.sprinkle.yellow {
+  background: linear-gradient(135deg, #ffd166, #ffe7a0);
+  box-shadow: 0 0 8px #ffd166;
+}
+
+
+
+
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .quote-text{
+        font-size: 20px;
+    }
+    .quote-card{
+        max-width: 80%;
+    }
+
+}
