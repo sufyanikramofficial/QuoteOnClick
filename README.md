@@ -28,8 +28,8 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+   git clone https://github.com/sufyanikramofficial/QuoteOnClick.git
+   cd QuoteOnClick
    ```
 
 2. **Install dependencies**
@@ -43,7 +43,7 @@ Before you begin, ensure you have the following installed:
    ```
 
 4. **Open your browser**
-   Navigate to `http://localhost:3000`
+   Navigate to `http://localhost:3000` if you are using in localhost
 
 ## 📁 Project Structure
 
