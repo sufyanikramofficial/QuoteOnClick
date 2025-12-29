@@ -1,4 +1,4 @@
-# Portfolio - Interactive Quote Generator
+# Interactive Quote Generator
 
 A beautiful, interactive portfolio website featuring an inspirational quote generator with magical cursor effects. Built with Express.js backend and vanilla JavaScript frontend.
 
